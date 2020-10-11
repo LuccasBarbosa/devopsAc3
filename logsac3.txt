@@ -1,0 +1,23 @@
+2020-10-11T21:29:06.460611+00:00 app[api]: Initial release by user lucas.ssantos@aluno.faculdadeimpacta.com.br
+2020-10-11T21:29:06.460611+00:00 app[api]: Release v1 created by user lucas.ssantos@aluno.faculdadeimpacta.com.br
+2020-10-11T21:29:06.636207+00:00 app[api]: Release v2 created by user lucas.ssantos@aluno.faculdadeimpacta.com.br
+2020-10-11T21:29:06.636207+00:00 app[api]: Enable Logplex by user lucas.ssantos@aluno.faculdadeimpacta.com.br
+2020-10-11T23:12:38.413255+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/" host=hdevopsac3.herokuapp.com request_id=8ed11c64-68cd-4a1f-bf60-4ffd9b4eef40 fwd="187.101.173.21" dyno= connect= service= status=502 bytes= protocol=https
+2020-10-11T23:12:38.737199+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/favicon.ico" host=hdevopsac3.herokuapp.com request_id=4b9a66e9-1daa-447a-ac4c-d568fa67e0cb fwd="187.101.173.21" dyno= connect= service= status=502 bytes= protocol=https
+2020-10-11T23:24:22.000000+00:00 app[api]: Build started by user lucas.ssantos@aluno.faculdadeimpacta.com.br
+2020-10-11T23:24:46.514613+00:00 app[api]: Deploy 30b60103 by user lucas.ssantos@aluno.faculdadeimpacta.com.br
+2020-10-11T23:24:46.514613+00:00 app[api]: Release v3 created by user lucas.ssantos@aluno.faculdadeimpacta.com.br
+2020-10-11T23:24:46.527153+00:00 app[api]: Scaled to web@1:Free by user lucas.ssantos@aluno.faculdadeimpacta.com.br
+2020-10-11T23:24:50.249941+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-11T23:24:53.448591+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-11T23:24:53.448639+00:00 app[web.1]: * Environment: production
+2020-10-11T23:24:53.448644+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-11T23:24:53.448653+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-11T23:24:53.448654+00:00 app[web.1]: * Debug mode: off
+2020-10-11T23:24:53.461476+00:00 app[web.1]: * Running on http://0.0.0.0:46057/ (Press CTRL+C to quit)
+2020-10-11T23:24:54.196384+00:00 heroku[web.1]: State changed from starting to up
+2020-10-11T23:24:55.000000+00:00 app[api]: Build succeeded
+2020-10-11T23:25:47.417085+00:00 app[web.1]: 10.63.54.150 - - [11/Oct/2020 23:25:47] "GET / HTTP/1.1" 200 -
+2020-10-11T23:25:47.420299+00:00 heroku[router]: at=info method=GET path="/" host=hdevopsac3.herokuapp.com request_id=f0cb6870-88c9-46eb-bb98-c4148e1dd6dc fwd="187.101.173.21" dyno=web.1 connect=1ms service=11ms status=200 bytes=526 protocol=https
+2020-10-11T23:25:47.855787+00:00 app[web.1]: 10.63.54.150 - - [11/Oct/2020 23:25:47] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-11T23:25:47.857367+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=hdevopsac3.herokuapp.com request_id=0b17ef95-eca3-47eb-bd72-8a35659361f2 fwd="187.101.173.21" dyno=web.1 connect=1ms service=20ms status=404 bytes=379 protocol=https
